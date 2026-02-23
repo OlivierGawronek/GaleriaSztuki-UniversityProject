@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>6.5in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>2.47894in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="Rectangle1">
+                      <ReportItems>
+                        <Rectangle Name="Rectangle2">
+                          <ReportItems>
+                            <Textbox Name="Textbox1">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>Certyfikat autentycznosci</Value>
+                                      <Style>
+                                        <FontFamily>Eras Light ITC</FontFamily>
+                                        <FontSize>24pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox1</rd:DefaultName>
+                              <Height>0.79182in</Height>
+                              <Width>2.66361in</Width>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <BackgroundColor>Brown</BackgroundColor>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="Textbox5">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>Tytuł Dzieła</Value>
+                                      <Style />
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox5</rd:DefaultName>
+                              <Top>0.79182in</Top>
+                              <Height>0.25in</Height>
+                              <Width>1in</Width>
+                              <ZIndex>1</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Rectangle Name="Rectangle3">
+                              <ReportItems>
+                                <Textbox Name="Textbox6">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!TytulDziela.Value</Value>
+                                          <Style>
+                                            <FontSize>14pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox6</rd:DefaultName>
+                                  <Top>0in</Top>
+                                  <Height>0.49634in</Height>
+                                  <Width>1.18864in</Width>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox7">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!DataZakupu.Value</Value>
+                                          <Style>
+                                            <FontSize>14pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox6</rd:DefaultName>
+                                  <Left>2.65568in</Left>
+                                  <Height>0.49634in</Height>
+                                  <Width>1.18864in</Width>
+                                  <ZIndex>1</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox10">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!Artysta.Value</Value>
+                                          <Style>
+                                            <FontSize>14pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox6</rd:DefaultName>
+                                  <Top>0.01389in</Top>
+                                  <Left>5.11081in</Left>
+                                  <Height>0.49634in</Height>
+                                  <Width>1.18864in</Width>
+                                  <ZIndex>2</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                              </ReportItems>
+                              <KeepTogether>true</KeepTogether>
+                              <Top>1.04182in</Top>
+                              <Height>0.56578in</Height>
+                              <Width>6.5in</Width>
+                              <ZIndex>2</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <BackgroundColor>Brown</BackgroundColor>
+                              </Style>
+                            </Rectangle>
+                            <Textbox Name="Textbox8">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>Data Zakupu</Value>
+                                      <Style />
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox8</rd:DefaultName>
+                              <Top>0.79182in</Top>
+                              <Left>2.80067in</Left>
+                              <Height>0.25in</Height>
+                              <Width>1in</Width>
+                              <ZIndex>3</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="Textbox9">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>Nazwisko Artysty</Value>
+                                      <Style />
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox9</rd:DefaultName>
+                              <Top>0.79182in</Top>
+                              <Left>5.11081in</Left>
+                              <Height>0.25in</Height>
+                              <Width>1.38919in</Width>
+                              <ZIndex>4</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="Textbox13">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>DLA KLIENTA</Value>
+                                      <Style />
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox13</rd:DefaultName>
+                              <Top>1.64927in</Top>
+                              <Height>0.25in</Height>
+                              <Width>1in</Width>
+                              <ZIndex>5</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="Textbox14">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Klient.Value</Value>
+                                      <Style />
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox14</rd:DefaultName>
+                              <Top>1.91316in</Top>
+                              <Height>0.25in</Height>
+                              <Width>1in</Width>
+                              <ZIndex>6</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Image Name="Image1">
+                              <Source>Embedded</Source>
+                              <Value>PBS</Value>
+                              <Sizing>FitProportional</Sizing>
+                              <Top>1.97894in</Top>
+                              <Left>6in</Left>
+                              <Height>0.5in</Height>
+                              <Width>0.5in</Width>
+                              <ZIndex>7</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                              </Style>
+                            </Image>
+                          </ReportItems>
+                          <KeepTogether>true</KeepTogether>
+                          <Height>2.47894in</Height>
+                          <Width>6.5in</Width>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BackgroundColor>Olive</BackgroundColor>
+                          </Style>
+                        </Rectangle>
+                      </ReportItems>
+                      <KeepTogether>true</KeepTogether>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                      </Style>
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Height>2.47894in</Height>
+        <Width>6.5in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>2.47894in</Height>
+    <Style />
+  </Body>
+  <Width>6.5in</Width>
+  <Page>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="GalleryData">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>69c1d17f-eb3b-4650-8f2b-3c4dc92bcbc5</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>GalleryData</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="TytulDziela">
+          <DataField>TytulDziela</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DataZakupu">
+          <DataField>DataZakupu</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Cena">
+          <DataField>Cena</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="MetodaPlatnosci">
+          <DataField>MetodaPlatnosci</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Artysta">
+          <DataField>Artysta</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Klient">
+          <DataField>Klient</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>GalleryData</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\olivi\OneDrive\Pulpit\Narzedzia\GaleriaSztuki\GaleriaSztuki\GalleryData.xsd</rd:SchemaPath>
+        <rd:TableName>RaportHistoriaZakupow</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="PBS">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>651ef0c4-9f64-4517-b405-6a2065be2f2d</rd:ReportID>
+</Report>

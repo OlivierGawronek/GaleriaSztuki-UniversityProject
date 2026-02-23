@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GalleryData" targetNamespace="http://tempuri.org/GalleryData.xsd" xmlns:mstns="http://tempuri.org/GalleryData.xsd" xmlns="http://tempuri.org/GalleryData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GalleryData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="GalleryData" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="GalleryData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RaportHistoriaZakupow" msprop:Generator_RowClassName="RaportHistoriaZakupowRow" msprop:Generator_RowEvHandlerName="RaportHistoriaZakupowRowChangeEventHandler" msprop:Generator_RowDeletedName="RaportHistoriaZakupowRowDeleted" msprop:Generator_RowDeletingName="RaportHistoriaZakupowRowDeleting" msprop:Generator_RowEvArgName="RaportHistoriaZakupowRowChangeEvent" msprop:Generator_TablePropName="RaportHistoriaZakupow" msprop:Generator_RowChangedName="RaportHistoriaZakupowRowChanged" msprop:Generator_UserTableName="RaportHistoriaZakupow" msprop:Generator_RowChangingName="RaportHistoriaZakupowRowChanging" msprop:Generator_TableClassName="RaportHistoriaZakupowDataTable" msprop:Generator_TableVarName="tableRaportHistoriaZakupow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TytulDziela" msprop:Generator_UserColumnName="TytulDziela" msprop:Generator_ColumnPropNameInTable="TytulDzielaColumn" msprop:Generator_ColumnPropNameInRow="TytulDziela" msprop:Generator_ColumnVarNameInTable="columnTytulDziela" type="xs:string" minOccurs="0" />
+              <xs:element name="DataZakupu" msprop:Generator_UserColumnName="DataZakupu" msprop:Generator_ColumnPropNameInTable="DataZakupuColumn" msprop:Generator_ColumnPropNameInRow="DataZakupu" msprop:Generator_ColumnVarNameInTable="columnDataZakupu" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Cena" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Cena" msprop:Generator_ColumnPropNameInTable="CenaColumn" msprop:Generator_ColumnPropNameInRow="Cena" msprop:Generator_ColumnVarNameInTable="columnCena" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MetodaPlatnosci" msprop:Generator_UserColumnName="MetodaPlatnosci" msprop:Generator_ColumnPropNameInTable="MetodaPlatnosciColumn" msprop:Generator_ColumnPropNameInRow="MetodaPlatnosci" msprop:Generator_ColumnVarNameInTable="columnMetodaPlatnosci" type="xs:string" minOccurs="0" />
+              <xs:element name="Artysta" msprop:Generator_ColumnPropNameInRow="Artysta" msprop:Generator_ColumnPropNameInTable="ArtystaColumn" msprop:Generator_ColumnVarNameInTable="columnArtysta" msprop:Generator_UserColumnName="Artysta" type="xs:string" minOccurs="0" />
+              <xs:element name="Klient" msprop:Generator_ColumnPropNameInRow="Klient" msprop:Generator_ColumnPropNameInTable="KlientColumn" msprop:Generator_ColumnVarNameInTable="columnKlient" msprop:Generator_UserColumnName="Klient" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
